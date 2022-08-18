@@ -1,0 +1,436 @@
+.lanka {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgba(96, 174, 246, 0.4);
+    padding: 10px;
+    margin: 0 7px;
+}
+
+.ipsum {
+    background: url('../image/player.png');
+    background-size: cover;
+    height: 442px;
+    padding: 20px;
+    position: relative;
+}
+
+.ipsum h1 {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 15%;
+}
+
+.ipsum p {
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    margin: 0 31% 0 0;
+    position: absolute;
+    bottom: 6%;
+}
+
+.trending {
+    margin: 20px 0;
+}
+
+.dolor h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.dolor p {
+    font-size: 12px;
+    color: aliceblue;
+}
+
+.adipisicing {
+    background-color: rgb(18, 17, 17);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.adipisicing p {
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.adipisicing span {
+    display: flex;
+    justify-content: end;
+}
+
+.adipisicing span a {
+    color: #60AEF6;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.adipisicing span i {
+    color: #60AEF6;
+}
+
+.cricket {
+    margin-top: 12%;
+    width: 100%;
+}
+
+.match h5 {
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.number {
+    float: right;
+}
+
+.footer_sec {
+    background-color: #ffffff;
+}
+
+.footer_sec ul {
+    display: inline-block;
+    list-style: none;
+}
+
+
+
+.player {
+    margin-bottom: 30px;
+    width: 51% !important;
+}
+
+.previews {
+    margin-top: 12%;
+    width: 48% !important;
+    margin-left: 100px;
+}
+
+.eiusmod {
+    border: 1px solid #FFFFFF;
+    margin: 20px 0;
+}
+
+.india_img {
+    width: 34% !important;
+    height: 6%;
+    margin-right: 2%;
+}
+
+.australia {
+    border: 1px solid;
+}
+
+
+.previews_img {
+    margin-top: 7%;
+    width: 55% !important;
+    margin-left: 69px;
+
+}
+
+.south_img {
+    display: flex;
+    justify-content: center;
+    margin: 3% 0px;
+}
+
+.flagimg {
+    width: 30px !important;
+    height: 20px !important;
+    margin: 5px 0;
+}
+
+.srilanka {
+    margin: 0;
+    display: flex;
+}
+
+.lanka-border {
+    border: 1px solid #b4b4b45c;
+    margin: 5px 0;
+}
+
+.lanka ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.srilanka span {
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+    padding: 7px 5px;
+    text-transform: uppercase
+}
+
+.dolor span {
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+
+.adipisicing span {
+    font-size: 18px;
+    color: #60AEF6;
+    margin: 10px 0 0 10px;
+}
+
+.preview a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #60AEF6;
+    margin-right: 12px;
+}
+
+.preview {
+    font-size: 18px;
+    color: #60AEF6;
+    margin: 10px 0 0 10px;
+}
+
+.amet {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.facebook_img {
+    margin: 0 20px 0 0;
+}
+
+.whoare {
+    background: url(../image/blackimg.png);
+    background-color: rgb(18, 16, 16);
+    background-size: cover;
+    padding: 20px;
+    position: relative;
+}
+
+.whoare h5 {
+    color: #60AEF6;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.whoare p {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+
+
+
+.galle {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(96, 174, 246, 0.4);
+    padding: 10px;
+    width: 27%;
+    margin: 0 7px;
+}
+
+.galle h5 {
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(94, 92, 92);
+    float: right;
+}
+
+.galle h3 {
+    font-size: 14px;
+    float: right;
+}
+
+.galle h2 {
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+.galle span {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(138, 137, 137);
+}
+
+.galle h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #e12222;
+}
+
+.galle h6 {
+    font-size: 12px;
+    margin-top: 13px;
+    color: #918f8f;
+}
+
+.session {
+    margin: 7px 0;
+}
+
+.session span {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding-left: 7px;
+}
+
+.trail {
+    border: 1px solid #d9d9d9;
+    margin: 7px 0;
+}
+
+.aus_img {
+    width: 22% !important;
+}
+
+.report span {
+    color: red !important;
+}
+
+
+/* papu */
+
+.tab-sec .ant-tabs>.ant-tabs-nav,
+.ant-tabs>div>.ant-tabs-nav {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.trending_news h6 {
+    font-size: 14px;
+}
+
+.trending_news p {
+    font-size: 14px;
+    margin: 3px 0;
+}
+
+.live {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+}
+
+.live h4 {
+    text-transform: capitalize;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.live h4 a {
+    color: #60AEF6;
+}
+
+.live h4 a:hover {
+    text-decoration: underline;
+
+}
+
+.live-tab {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.live-tab .evevts {
+    width: 48%;
+    margin: 2px;
+}
+
+.zimbabww {
+    display: flex;
+    justify-content: space-between;
+}
+
+.live-border {
+    border: 1px solid #918f8f59;
+    margin: 0 10px;
+}
+
+.zimbabww img {
+    width: 10%;
+}
+
+.evevts h5 {
+    color: red;
+    margin-top: 7px;
+}
+
+.evevts p {
+    font-size: 12px;
+}
+
+.evevts p a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #908d8df5;
+}
+
+.lanka ul {
+    margin: 0;
+}
+
+.border-box {
+    border: 1px solid #b4b4b45c;
+}
+
+.evevts p a:hover {
+    color: #60AEF6;
+}
+
+.evevts ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .player_img {
+        width: 100%;
+    }
+
+    .ipsum h1 {
+        bottom: 20%;
+    }
+
+    .ipsum p {
+        margin: 0;
+    }
+
+    .cricket {
+        margin-top: 5%;
+    }
+
+    .adipisicing {
+        padding: 11px;
+    }
+
+    .galle {
+        width: 100%;
+        margin: 3% 0;
+    }
+
+    .previews {
+        margin-left: 39px;
+    }
+
+    .live-tab {
+        display: block;
+    }
+
+    .main-footer .ftr-link ul li {
+        list-style-type: none;
+    }
+    .live-tab .evevts {
+        width: 100%;
+        margin: 0px;
+    }
+}
