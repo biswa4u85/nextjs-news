@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { Tabs, Row, Col } from 'antd';
 import { useSelector, useDispatch } from 'react-redux'
 import { useTranslation } from "react-i18next";
+import Config from "../common/Config";
 import Live from "./Scores/Live";
 import Upcoming from "./Scores/Upcoming";
 import Result from "./Scores/Result";
@@ -11,7 +12,7 @@ function LiveScore(props) {
     const dispatch = useDispatch()
     const { t } = useTranslation();
     const homeSettings = useSelector((state) => state.auth.homeSettings)
-    const token = useSelector((state) => state.auth.token)
+    const token = Config.token
     const [tab, setTab] = useState(1)
     const { TabPane } = Tabs;
     let liveData = [{}, {}, {}, {}, {}, {}]

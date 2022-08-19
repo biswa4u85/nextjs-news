@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { useSelector, useDispatch } from 'react-redux'
 import { useRouter } from 'next/router'
 import { useTranslation } from "react-i18next";
+import Config from "../../common/Config";
 import { getCmsDetails } from '../../store/MainRedux'
 
 function Cms(props) {
@@ -10,7 +11,7 @@ function Cms(props) {
     const { id } = router.query
     const dispatch = useDispatch()
     const { t } = useTranslation();
-    const token = useSelector((state) => state.auth.token)
+    const token = Config.token
     const cmsData = useSelector((state) => state.auth.cms)
     const cms = cmsData[id]
 

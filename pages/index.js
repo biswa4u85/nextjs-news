@@ -17,7 +17,7 @@ function Home() {
   const dispatch = useDispatch()
   const router = useRouter()
   const { t } = useTranslation();
-  const token = useSelector((state) => state.auth.token)
+  const token = Config.token
   const homeSettings = useSelector((state) => state.auth.homeSettings)
   const headlines = useSelector((state) => state.auth.headlines)
   const newsList = useSelector((state) => state.auth.newsList)

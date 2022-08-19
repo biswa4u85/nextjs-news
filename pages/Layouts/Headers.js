@@ -12,15 +12,10 @@ function Headers() {
     const token = useSelector((state) => state.user.token)
 
     useEffect(() => {
-        socketInitializer()
-    }, []);
-
-    const socketInitializer = async () => {
-        await fetch("/api/socket");
         SocketApis.getSocketData('message', (data) => {
-            // console.log(data)
+            console.log(data)
         });
-    }
+    }, []);
 
     // Filter News
     let menNews = newsList.filter(item => item.blog_category === 'men');

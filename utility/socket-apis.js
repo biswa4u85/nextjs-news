@@ -38,7 +38,6 @@ class SocketApis {
 
     subscribe(id) {
         this.socket.emit('subscribe', id)
-
         // Save Temp Ids
         if (id in this.tempIds === false) {
             this.tempIds[id] = true
@@ -52,9 +51,8 @@ class SocketApis {
     }
 
     getSocketData(id, cb) {
-        this.socket.on((data) => {
-            console.log(data)
-            // cb(date)
+        this.socket.on(id, (data) => {
+            cb(data)
         })
     }
 

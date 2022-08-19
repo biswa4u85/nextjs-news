@@ -14,7 +14,7 @@ function Category(props) {
     const { id } = router.query
     const dispatch = useDispatch()
     const { t } = useTranslation();
-    const token = useSelector((state) => state.auth.token)
+    const token = Config.token
     const categorys = useSelector((state) => state.auth.categorys)
     const newsListByCat = useSelector((state) => state.auth.newsListByCat.data)
     const newsListByCatCount = useSelector((state) => state.auth.newsListByCat.count)

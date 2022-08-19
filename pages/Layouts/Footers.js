@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import { useSelector, useDispatch } from 'react-redux'
 import ftrBg from "../../public/img/svg/ftr-bg.svg";
 import FormValidate from "../../common/FormValidate";
+import Config from "../../common/Config";
 import { subscribeEmail, getCmsDetails } from '../../store/MainRedux'
 
 function Footers() {
@@ -14,7 +15,7 @@ function Footers() {
     const [email, setEmail] = useState('')
     const [error, setError] = useState(null)
     const [submenu, setSubmenu] = useState(false)
-    const token = useSelector((state) => state.auth.token)
+    const token = Config.token
     const homeSettings = useSelector((state) => state.auth.homeSettings)
     const cmsData = useSelector((state) => state.auth.cms)
     const cms = cmsData['about-us-l']

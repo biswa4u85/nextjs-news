@@ -18,7 +18,7 @@ function Details(props) {
     const pageActive = useRef(false);
     const [form] = Form.useForm();
     const { t } = useTranslation();
-    const token = useSelector((state) => state.auth.token)
+    const token = Config.token
     const newsList = useSelector((state) => state.auth.newsList)
     const newsDetails = useSelector((state) => state.auth.newsDetails)
     const isAddComment = useSelector((state) => state.auth.isAddComment)
