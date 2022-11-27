@@ -1,9 +1,54 @@
 .lanka {
-    background-color: white;
+    padding: 0px;
+}
+
+.lanka .header {
+    background: var(--color-blue);
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.finshed {
+    background-color: var(--white);
     border-radius: 10px;
     box-shadow: 0px 0px 6px rgba(96, 174, 246, 0.4);
-    padding: 10px;
-    margin: 0 7px;
+    margin: 0 5px;
+}
+
+.false-zealand .header {
+    background: var(--color-blue);
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.false-zealand {
+    background-color: gainsboro !important;
+    border-radius: 0 0 10px 10px;
+    padding: 0;
+}
+
+.false-zealand h5 {
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.false-zealand h6 {
+    font-size: 13px;
+}
+
+.owl-carousel .owl-item img {
+    box-shadow: 1px 1px #ccc;
+    border: 1px #ccc solid;
+    margin: -1px 3px 5px 5px;
+}
+
+.lanka .header h5,
+.lanka .header h6,
+.false-zealand .header h5,
+.false-zealand .header h6 {
+    color: var(--white);
 }
 
 .ipsum {
@@ -33,10 +78,47 @@
     margin: 20px 0;
 }
 
+.false {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.false h6 {
+    margin: 0px 10px;
+}
+
+.false h6 span {
+    color: #4a4b4b;
+    font-size: 14px;
+}
+
+.lanka h5 {
+    font-size: 13px;
+}
+
+.lanka h6 {
+    font-size: 13px;
+}
+
+#live_result p {
+    min-height: 30px;
+    margin: 0;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.false-series {
+    background-color: #0b0a0a;
+    padding: 0 !important;
+}
+
 .dolor h1 {
     font-size: 25px;
     font-weight: bold;
 }
+
+
 
 .dolor p {
     font-size: 12px;
@@ -77,10 +159,6 @@
     width: 100%;
 }
 
-.match h5 {
-    font-weight: 700;
-    margin: 20px 0;
-}
 
 .number {
     float: right;
@@ -292,18 +370,59 @@
     color: red !important;
 }
 
+.ellipsis1 {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
-/* papu */
+
+.seriesBox h1 {
+    font-size: 20px;
+}
+
+.seriesBox a {
+    font-weight: bold !important;
+}
+
+.seriesBox p {
+    margin: 0;
+    padding: 10px;
+    border-bottom: solid 1px #e0dede;
+}
+
+.seriesBox .select {
+    float: right;
+    margin-top: -5px;
+}
+
+.seriesBox .select .ant-select {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.seriesBox .ant-tabs-nav-list {
+    margin-left: 30px;
+}
 
 .tab-sec .ant-tabs>.ant-tabs-nav,
 .ant-tabs>div>.ant-tabs-nav {
     background-color: #FFFFFF;
-    border-radius: 10px;
-    padding: 20px;
+    padding: 0px;
 }
 
 .trending_news h6 {
     font-size: 14px;
+}
+
+.red {
+    color: red !important;
+}
+
+.trending_news .red {
+    font-size: 11px;
+    color: red !important;
 }
 
 .trending_news p {
@@ -379,6 +498,7 @@
 
 .border-box {
     border: 1px solid #b4b4b45c;
+    margin-bottom: 5px;
 }
 
 .evevts p a:hover {
@@ -389,6 +509,639 @@
     display: inline-block;
     padding-right: 20px;
 }
+
+.series-game {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.match-scro h6 {
+    background: #4c4c4c;
+    padding: 10px;
+    color: #FFF;
+
+}
+
+.match-scro p {
+    margin: 0;
+}
+
+.australia-mach {
+    margin: 10px 0;
+}
+
+.wickets span {
+    margin: 0 18px 0 0;
+    color: gray;
+    font-weight: 600;
+}
+
+.wickets span a {
+    border: none !important;
+    color: gray !important;
+    text-decoration: none !important;
+}
+
+.wickets span a:hover {
+    text-decoration: underline !important;
+}
+
+.tem-scro {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.australia-tem {
+    margin: 30px 0 !important;
+    color: #3b8aff !important;
+}
+
+.australia-tem a {
+    text-decoration: none !important;
+}
+
+.closer a {
+    text-decoration: none !important;
+
+}
+
+.closer {
+    margin: 15px 0 !important;
+}
+
+.closer a:hover {
+    text-decoration: underline !important;
+}
+
+.comprehensive span {
+    color: black;
+    margin: 0;
+}
+
+.cost {
+    background-color: #dee2e6;
+}
+
+.cost p {
+    color: #1866db !important;
+    margin: 0 !important;
+    padding: 6px 0;
+}
+
+.cost span {
+    color: black;
+    margin-left: 20px;
+}
+
+.match-btn .ant-btn {
+    margin: 10px 0 !important;
+}
+
+.match-btn .ant-btn a:hover {
+    background: #4a4b4b !important;
+}
+
+.comprehensive .ant-row {
+    margin: 15px 0;
+}
+
+.maych-info h5 {
+    background: #000000c9;
+    padding: 10px;
+    color: #FFF;
+}
+
+.maych-info p {
+    margin: 0 !important;
+}
+
+.change{
+    border: 0.5px solid #dddddd;
+    margin: 7px 0;
+}
+
+.maych-info .ant-row{
+    margin: 10px 0;
+}
+
+.maych-info h6{
+ font-size: 14px;
+ font-weight: 600;
+}
+
+.centuries a{
+    color: #000000 !important;
+}
+
+
+
+/* demo */
+
+.tab {
+    margin: 5px;
+    background-color: white;
+    padding: 0px 10px;
+}
+
+.tab-btn {
+    margin: 0 10px;
+}
+
+.tab h3 {
+    margin: 30px 0;
+    background-color: rgb(221 221 221 / 85%);
+    padding: 14px 10px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.africa h5 a {
+    color: #000000;
+}
+
+.africa h5 a:hover {
+    text-decoration: underline;
+}
+
+.africa span {
+    color: #525050;
+    font-size: 14px;
+}
+
+.africa h5 {
+    color: #0b0a0a;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.africa h6 {
+    color: #615f5f;
+    font-size: 14px;
+}
+
+.africa h4 {
+    position: absolute;
+    right: 47px;
+    background: deeppink;
+    padding: 5px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #ffff;
+}
+
+.match {
+    background-color: #dadada;
+    width: 30%;
+    margin: 15px 0;
+}
+
+.match h5 {
+    margin: 0;
+    color: #000000;
+    padding: 5px 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.match h5 span {
+    margin-left: 20px;
+}
+
+.match h6 {
+    color: #60AEF6;
+    font-weight: normal;
+    margin-top: 4px;
+    font-size: 15px;
+}
+
+.vl {
+    border-left: 3px solid #60AEF6;
+    height: 110px;
+    padding: 10px 12px;
+}
+
+.read-preview {
+    border-left: 3px solid #584949;
+    height: 42px;
+    padding: 10px 12px;
+    background: gainsboro;
+    width: 16%;
+    margin: 10px 0;
+}
+
+.match-border {
+    border: 0.3px solid gainsboro;
+}
+
+.runs {
+    display: flex;
+    margin: 20px 0;
+}
+
+.runs h6 {
+    margin: 0 10px;
+    color: #1866db;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.score-border {
+    border-left: 1px solid #4a4b4b;
+    height: 22px;
+}
+
+.month {
+    background: #f8f8f8;
+    padding: 5px 10px;
+    border: solid 1px #e1dfdf;
+    margin-top: 10px;
+}
+
+.series {
+    margin: 13px 8px;
+}
+
+.series h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.series h6 {
+    color: #666;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.series a {
+    color: black;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.series a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.friday h2 {
+    background: #ecebeb;
+    padding: 6px;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.nepal h5 {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nepal h6 {
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nepal p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4a4b4b;
+}
+
+.flg-sec {
+    margin: 20px 0;
+}
+
+.tour {
+    display: flex;
+}
+
+.tour h5 {
+    color: green;
+}
+
+.tour p {
+    margin-left: 15%;
+}
+
+.tour p a {
+    color: black;
+}
+
+.tour p a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.tour p span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4a4b4b;
+}
+
+.tour-bordrt {
+    border-left: 1px solid grey;
+
+    padding: 10px 12px;
+}
+
+.flg-sec span {
+    margin-left: 10px;
+}
+
+.season_border {
+    border-left: 1px solid #4a4b4b;
+    height: 22px;
+}
+
+.ireland {
+    display: flex;
+}
+
+.ireland h6 {
+    color: #666;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.ireland a {
+    color: #666;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.ireland a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+.nether {
+    color: red;
+}
+
+.run {
+    background: #6b6b6b;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 11px;
+}
+
+.run h5 {
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.wickets p {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.wickets p a {
+    color: #3b8aff;
+}
+
+.wickets p a:hover {
+    text-decoration: underline;
+}
+
+
+
+.tab-bar .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    text-shadow: 0 0 0.25px currentcolor;
+    border: 1px solid;
+    padding: 0 16px;
+    border-radius: 13px;
+    background: aliceblue;
+    text-decoration: none;
+}
+
+.tab-bar .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn :hover {
+    background-color: #1DA57A;
+}
+
+.farooqi h5 {
+    color: #6b6b6b;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.farooqi h6 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.farooqi p {
+    font-size: 14px;
+    color: #3b8aff;
+    margin: 16px 0;
+}
+
+.plya p {
+    color: gray;
+    font-size: 14px;
+}
+
+.farooqi a {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.farooqi a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.surprise {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.surprise h6 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    color: #0067ff;
+}
+
+.player-border {
+    border: 0.3px solid gray;
+}
+
+.videosse {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.videosse p {
+    margin: 0;
+    color: gray;
+    cursor: pointer;
+}
+
+.crazy {
+    /* display: flex; */
+    background-color: rgb(221 221 221 / 85%);
+}
+
+.ant-form-item-explain-error {
+    text-align: left;
+}
+
+.viewAllMatch {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.viewAllMatch button {
+    padding: 15px 30px;
+    font-size: var(--text-16);
+    font-weight: var(--medium);
+    color: var(--white);
+    background-color: var(--color-blue);
+    height: 100%;
+    border-radius: 12px;
+    border: 1px solid;
+}
+
+.score-board {
+    background: #FFF;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 0.3px solid;
+
+}
+
+.scores {
+    padding: 20px;
+}
+
+.score-board h5 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.score-board p {
+    color: #525050;
+    font-size: 15px;
+    font-weight: 400;
+    /* margin: 0; */
+
+}
+
+.score-board a {
+    color: black;
+    text-decoration: underline;
+}
+
+.score-board a:hover {
+    color: #60AEF6;
+    text-decoration: underline;
+}
+
+.score-board .shree {
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}
+
+.score {
+    border: 0.3px solid;
+}
+
+.match-board {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.match-board a {
+    color: #939393;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.match-board a:hover {
+    color: #60AEF6;
+    text-decoration: underline;
+}
+
+.match-board h6 {
+    color: #939393;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.score-number h6 {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.score-number h6 span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.wickets {
+    padding: 10px 25px;
+}
+
+.vl {
+    border-left: 0.3px solid #a1a1a1;
+    height: 125px;
+}
+
+.match-player p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.total-scre {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    background-color: #ededed;
+    padding: 10px;
+}
+
+.scorecard-tab {
+    border: 0.3px solid #a1a1a1;
+    border-radius: 7px;
+    margin: 10px 0;
+}
+
+.scorecard-tab h5 {
+    background-color: rgb(0 0 0 / 77%);
+    padding: 10px;
+    border-radius: 7px 7px 0 0;
+    color: #FFFFFF;
+}
+
+
+.scorecard-tab h5 span{
+    float: right;
+    color: #FFFFFF;
+ }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -429,8 +1182,38 @@
     .main-footer .ftr-link ul li {
         list-style-type: none;
     }
+
     .live-tab .evevts {
         width: 100%;
         margin: 0px;
+    }
+
+    .match {
+        width: 100%;
+    }
+
+    .runs h6 {
+        margin: 1px 5px;
+        font-size: 14px;
+        font-weight: normal;
+        margin-left: 11px;
+        margin-right: 17px;
+    }
+
+    .trending_news h6 {
+        font-size: 10px;
+    }
+
+    .srilanka span {
+        font-size: 11px;
+    }
+
+    .trending_news p {
+        font-size: 11px;
+    }
+
+    .lanka ul li {
+        padding: 0;
+        font-size: 11px;
     }
 }

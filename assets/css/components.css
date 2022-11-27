@@ -13,7 +13,7 @@
 }
 
 :root {
-    --color-blue: #d39a25;
+    --color-blue: #57a4ed;
     --bold: 800;
     --semi-bold: 700;
     --medium: 500;
@@ -6345,4 +6345,3 @@ input::placeholder {
     background: var(--color-primary)
 }
 
-/*# sourceMappingURL=components.css.map */

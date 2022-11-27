@@ -245,19 +245,19 @@
         // dark light js code here
         dark_light: () => {
             /** Dark Light Version*/
-            // var html = document.querySelector('html'),
-            //     darkLight = document.querySelector('.dark-light')
-            // if (darkLight) {
-            //     darkLight.addEventListener('click', function () {
-            //         if (html.getAttribute('data-theme') === 'light') {
-            //             html.setAttribute('data-theme', 'dark')
-            //             localStorage.setItem('selected-theme', 'dark');
-            //         } else {
-            //             html.setAttribute('data-theme', 'light')
-            //             localStorage.setItem('selected-theme', 'light');
-            //         }
-            //     })
-            // }
+            var html = document.querySelector('html'),
+                darkLight = document.querySelector('.dark-light')
+            if (darkLight) {
+                darkLight.addEventListener('click', function () {
+                    if (html.getAttribute('data-theme') === 'light') {
+                        html.setAttribute('data-theme', 'dark')
+                        localStorage.setItem('selected-theme', 'dark');
+                    } else {
+                        html.setAttribute('data-theme', 'light')
+                        localStorage.setItem('selected-theme', 'light');
+                    }
+                })
+            }
         },
         // img to svg code here
         imgToSvg: function () {
