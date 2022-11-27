@@ -45,7 +45,8 @@ function HomeSlider(props: any) {
 
 
     const checkImg = (name: any) => {
-        return <img alt="" src={name ? (Config.frappe_url + name) : noFlag} className="flagimg" />
+        // return <img  src={name ? (Config.frappe_url + name) : noFlag} className="flagimg" />
+        return ''
     }
 
     if (matcheslistByFilter.length == 0) {

@@ -16,7 +16,6 @@ function Search(props: any) {
   const homeSettings = useSelector((state: any) => state.auth.homeSettings)
   const searchValue = useSelector((state: any) => state.auth.searchValue)
 
-
   useEffect(() => {
     window.scrollTo(0, 0)
     handlePageChange()

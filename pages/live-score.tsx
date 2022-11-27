@@ -3,11 +3,11 @@ import Head from 'next/head'
 import Layout from '../components/layout/Layout'
 import { Tabs, Row, Col } from 'antd';
 import { useSelector, useDispatch } from 'react-redux'
-import Live from "../components/elements/Live";
-import FutureSeries from "../components/elements/FutureSeries";
-import MatchesByDay from "../components/elements/MatchesByDay";
-import Teams from "../components/elements/Teams";
-import ArchiveSeries from "../components/elements/ArchiveSeries";
+// import Live from "../components/elements/Live";
+// import FutureSeries from "../components/elements/FutureSeries";
+// import MatchesByDay from "../components/elements/MatchesByDay";
+// import Teams from "../components/elements/Teams";
+// import ArchiveSeries from "../components/elements/ArchiveSeries";
 
 function LiveScore(props: any) {
   const dispatch = useDispatch()
@@ -33,7 +33,7 @@ function LiveScore(props: any) {
         <Row>
           <Col xs={{ span: 22, offset: 1 }} lg={{ span: 22, offset: 1 }}>
             <div className="tab">
-              <Tabs defaultActiveKey="1" onChange={(val: any) => setTab(val)}>
+              {/* <Tabs defaultActiveKey="1" onChange={(val: any) => setTab(val)}>
 
                 <TabPane tab="Current Matches" key="1">
                   <h2>Live Cricket Score</h2>
@@ -69,7 +69,7 @@ function LiveScore(props: any) {
                   {tab == 5 && (<ArchiveSeries type={'archive'} />)}
                 </TabPane>
 
-              </Tabs>
+              </Tabs> */}
             </div>
           </Col>
         </Row>
