@@ -7,8 +7,6 @@ import { store } from '../store';
 import { Provider } from 'react-redux';
 import { saveState } from "../utility/browser-storage";
 import { debounce } from "debounce";
-import '../assets/css/plugin.min.css';
-import '../assets/css/components.css';
 import '../assets/css/style.css';
 import '../assets/css/live.css';
 
