@@ -1,5 +1,6 @@
 import SwiperCore, { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from 'next/image'
 import Link from "next/link";
 import img2 from "../../public/assets/imgs/placeholders/img-2.jpg"
 import img3 from "../../public/assets/imgs/placeholders/img-3.jpg"
@@ -30,7 +31,7 @@ const Slider1 = () => {
                 <SwiperSlide>
                     <div className="px-3 pb-5">
                         <div className="card-slider group">
-                            <img className="rounded-xl" src={img2.src} alt="ERP TECH" />
+                            <Image className="rounded-xl" src={img2.src} alt="ERP TECH" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
@@ -52,7 +53,7 @@ const Slider1 = () => {
                 <SwiperSlide>
                     <div className="px-3 pb-5">
                         <div className="card-slider group">
-                            <img className="rounded-xl" src={img3.src} alt="ERP TECH" />
+                            <Image className="rounded-xl" src={img3.src} alt="ERP TECH" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
@@ -74,7 +75,7 @@ const Slider1 = () => {
                 <SwiperSlide>
                     <div className="px-3 pb-5">
                         <div className="card-slider group">
-                            <img className="rounded-xl" src={img4.src} alt="ERP TECH" />
+                            <Image className="rounded-xl" src={img4.src} alt="ERP TECH" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
@@ -96,7 +97,7 @@ const Slider1 = () => {
                 <SwiperSlide>
                     <div className="px-3 pb-5">
                         <div className="card-slider group">
-                            <img className="rounded-xl" src={img5.src} alt="ERP TECH" />
+                            <Image className="rounded-xl" src={img5.src} alt="ERP TECH" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
@@ -120,12 +121,12 @@ const Slider1 = () => {
             <div id="carausel-2-columns-1-arrows" className="flex">
                 <span className="mr-4 text-blue-500 flex slick-arrow custom_prev">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"></path>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"></path>
                     </svg>
                 </span>
                 <span className="text-blue-500 flex slick-arrow custom_next">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                     </svg>
                 </span>
             </div>

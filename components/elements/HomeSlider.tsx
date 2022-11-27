@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
+import Image from 'next/image'
 import moment from "moment";
 import Config from "../../common/Config";
 import { Col, Row } from 'antd';
@@ -77,7 +78,7 @@ function HomeSlider(props: any) {
                             <Col span={5}>
                                 <h5>{item.sub_satus}</h5>
                             </Col>
-                            <Col span={19} align="right" >
+                            <Col span={19}>
                                 <h6>{moment.utc(item.startdt).format('Do MMM YYYY')} At {moment.utc(item.startdt).format('hh:mm A')}</h6>
                             </Col>
                         </Row>
@@ -105,7 +106,7 @@ function HomeSlider(props: any) {
                             <Col span={8}>
                                 <h5><Link href={`/match-news/${item.name}`}>Details</Link></h5>
                             </Col>
-                            <Col span={16} align="right"><h6 className="ellipsis1">{item.series_name}</h6>
+                            <Col span={16}><h6 className="ellipsis1">{item.series_name}</h6>
                             </Col>
                         </Row>
                     </div>

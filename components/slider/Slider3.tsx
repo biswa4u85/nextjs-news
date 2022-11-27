@@ -1,6 +1,6 @@
 import SwiperCore, { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import Image from 'next/image'
 SwiperCore.use([Navigation]);
 
 const Slider3 = () => {
@@ -18,15 +18,15 @@ const Slider3 = () => {
             >
 
                 <SwiperSlide>
-                    <img className="rounded" src="/assets/imgs/placeholders/mockup-1.png" alt="ERP TECH" />
+                    <Image className="rounded" src="/assets/imgs/placeholders/mockup-1.png" alt="ERP TECH" />
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <img className="rounded" src="/assets/imgs/placeholders/mockup-2.png" alt="ERP TECH" />
+                    <Image className="rounded" src="/assets/imgs/placeholders/mockup-2.png" alt="ERP TECH" />
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <img className="rounded" src="/assets/imgs/placeholders/mockup-3.png" alt="ERP TECH" />
+                    <Image className="rounded" src="/assets/imgs/placeholders/mockup-3.png" alt="ERP TECH" />
                 </SwiperSlide>
             </Swiper>
 

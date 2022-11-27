@@ -1,4 +1,5 @@
 import noData from "../assets/img/nodata.jpg";
+import Image from 'next/image'
 export default {
     hostUrl: 'https://criczone.co',
     twitter: 'CriczoneN',
@@ -13,7 +14,7 @@ export default {
         let imageURL = src ? (String(src).includes('https://') ? src : 'https://news.techwizards.io' + src) : noData
         return <div className="mainImage">
             {!type && (<div className="mainTitle">{item?.title}</div>)}
-            <img style={{ height: (imgHeight ? imgHeight : 'inherit') }} src={imageURL} title={item?.image_alt} alt={item?.image_alt} />
+            <Image style={{ height: (imgHeight ? imgHeight : 'inherit') }} src={imageURL} title={item?.image_alt} alt={item?.image_alt} />
             {!type && (<div className="imageCaptions">{item?.image_captions}</div>)}
         </div>
     },

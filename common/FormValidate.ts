@@ -7,16 +7,16 @@ class FormValidate {
         this.emailRegex = emailRegex;
         this.phoneRegex = phoneRegex;
     }
-    isEmpty(...data) {
+    isEmpty(...data:any) {
         for (let i = 0; i < data.length; i++) {
             if (!data[i]) return true;
         }
         return false;
     }
-    isEmail(email) {
+    isEmail(email:any) {
         return this.emailRegex.test(email);
     }
-    isPhone(phone) {
+    isPhone(phone:any) {
         return this.phoneRegex.test(phone);
     }
 }

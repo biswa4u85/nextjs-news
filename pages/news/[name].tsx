@@ -81,7 +81,7 @@ function News(props: any) {
             <div className="col-lg-8">
               <div className="single-post-content">
                 <div className="figer-img">
-                  {Config.randerImage(newsDetails)}
+                  {(Config as any).randerImage(newsDetails)}
                   <button className="btn btn-theme">{newsDetails?.category_description}</button>
                 </div>
                 <div className="timeline">
@@ -95,11 +95,11 @@ function News(props: any) {
                 {/* <div className="reaction">
                                     <h3>Your Reaction on this post</h3>
                                     <ul>
-                                        <li><a href="single-post-details.html#"><img src={rect1} alt="icon" /><span>45</span></a></li>
-                                        <li><a href="single-post-details.html#"><img src={rect2} alt="icon" /></a></li>
-                                        <li><a href="single-post-details.html#"><img src={rect3} alt="icon" /><span>01</span></a></li>
-                                        <li><a href="single-post-details.html#"><img src={rect4} alt="icon" /></a></li>
-                                        <li><a href="single-post-details.html#"><img src={rect5} alt="icon" /><span>25</span></a></li>
+                                        <li><a href="single-post-details.html#"><Image src={rect1} alt="icon" /><span>45</span></a></li>
+                                        <li><a href="single-post-details.html#"><Image src={rect2} alt="icon" /></a></li>
+                                        <li><a href="single-post-details.html#"><Image src={rect3} alt="icon" /><span>01</span></a></li>
+                                        <li><a href="single-post-details.html#"><Image src={rect4} alt="icon" /></a></li>
+                                        <li><a href="single-post-details.html#"><Image src={rect5} alt="icon" /><span>25</span></a></li>
                                     </ul>
                                 </div> */}
               </div>
@@ -125,12 +125,12 @@ function News(props: any) {
                     </div>)}
                   </div>
                   {/* <div className="video-card">
-                                        <img src="https://tpc.googlesyndication.com/simgad/14556471411178073418?" width="250" height="250" alt="Advertiser" border="0" />
+                                        <Image src="https://tpc.googlesyndication.com/simgad/14556471411178073418?" width="250" height="250" alt="Advertiser" border="0" />
                                     </div> */}
                 </aside>
                 <br />
                 {/* <div className="promo-add">
-                                    <img src={promoAdd} alt="image" />
+                                    <Image src={promoAdd} alt="image" />
                                     <button className="btn btn-white-outline">Promotional Ad</button>
                                 </div> */}
                 <div className="related-news">

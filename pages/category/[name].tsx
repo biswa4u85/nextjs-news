@@ -47,7 +47,7 @@ function Category(props: any) {
           <div className="weekly-list-item">
             {newsListByCat ? newsListByCat.map((item: any, key: any) => <div key={key} className="news-vcard-single">
               <div className="news-vcard-img">
-                {Config.randerImage(item, 220)}
+                {(Config as any).randerImage(item, 220)}
               </div>
               <div className="news-vcard-content">
                 <div className="news-vcard-title">
@@ -55,7 +55,7 @@ function Category(props: any) {
                   <span>{moment.utc(item.published_on).format('Do MMM YYYY')}</span>
                   <span>{item.blogger}</span>
                 </div>
-                <h3><Link href={`/news/${item.route}`}>{Config.trunCate(item.title, '2')}</Link></h3>
+                <h3><Link href={`/news/${item.route}`}>{(Config as any).trunCate(item.title, '2')}</Link></h3>
               </div>
             </div>) : null}
           </div>

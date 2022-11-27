@@ -38,7 +38,7 @@ function Search(props: any) {
           <div className="weekly-list-item">
             {searchValue.data ? searchValue.data.map((item: any, key: any) => <div key={key} className="news-vcard-single">
               <div className="news-vcard-img">
-                {Config.randerImage(item, 220)}
+                {(Config as any).randerImage(item, 220)}
               </div>
               <div className="news-vcard-content">
                 <div className="news-vcard-title">

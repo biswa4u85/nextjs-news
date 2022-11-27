@@ -60,7 +60,7 @@ function Footers() {
                                 <div className="ftr-drpt">
                                     <div className="footer-logo">
                                         {homeSettings?.site_logo && (<Link href="/">
-                                            <img src={Config.frappe_url + '/' + homeSettings.site_logo} alt="image" />
+                                            <img width="230" height="70" src={Config.frappe_url + '/' + homeSettings.site_logo} alt="image" />
                                         </Link>)}
                                     </div>
                                     <p>{homeSettings?.site_about}</p>

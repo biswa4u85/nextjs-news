@@ -103,7 +103,7 @@ function Home() {
                     <div className="bnr-lft-cnt-rgt">
                       {home1stNews[0] && (<div className="btl-simple-card" data-aos="fade-up"
                         data-aos-delay="100">
-                        {Config.randerImage(home1stNews[0], 200, 500)}
+                        {(Config as any).randerImage(home1stNews[0], 200, 500)}
                         <div className="btlc-content-wrapper">
                           <Link href={`/category/${home1stNews[0].blog_category}`}><span className="btn">{home1stNews[0].category_description}</span></Link>
                           <div className="btlc-marking">
@@ -122,7 +122,7 @@ function Home() {
                       </div>)}
                       {home2ndNews[0] && (<div className="btl-simple-card" data-aos="fade-up"
                         data-aos-delay="100">
-                        {Config.randerImage(home2ndNews[0], 200, 500)}
+                        {(Config as any).randerImage(home2ndNews[0], 200, 500)}
                         <div className="btlc-content-wrapper">
                           <Link href={`/category/${home2ndNews[0].blog_category}`}><span className="btn">{home2ndNews[0].category_description}</span></Link>
                           <div className="btlc-marking">
@@ -145,7 +145,7 @@ function Home() {
                     <div className="bnr-lft-cnt-rgt">
                       {home3rdNews[0] && (<div className="btl-simple-card" data-aos="fade-up"
                         data-aos-delay="100">
-                        {Config.randerImage(home3rdNews[0], 200, 500)}
+                        {(Config as any).randerImage(home3rdNews[0], 200, 500)}
                         <div className="btlc-content-wrapper">
                           <Link href={`/category/${home3rdNews[0].blog_category}`}><span className="btn">{home3rdNews[0].category_description}</span></Link>
                           <div className="btlc-marking">
@@ -163,7 +163,7 @@ function Home() {
                       </div>)}
                       {home4thNews[0] && (<div className="btl-simple-card" data-aos="fade-up"
                         data-aos-delay="100">
-                        {Config.randerImage(home4thNews[0], 200, 500)}
+                        {(Config as any).randerImage(home4thNews[0], 200, 500)}
                         <div className="btlc-content-wrapper">
                           <Link href={`/category/${home4thNews[0].blog_category}`}><span className="btn">{home4thNews[0].category_description}</span></Link>
                           <div className="btlc-marking">
@@ -216,7 +216,7 @@ function Home() {
                 <div className="news-card-wrapper">
                   <div className="ns-mini-card">
                     {filterByDay('left_category_one', 1).map((item: any, key: any) => <div key={key} className="btl-simple-card" data-aos="fade-up">
-                      {Config.randerImage(item, 190)}
+                      {(Config as any).randerImage(item, 190)}
                       <div className="btlc-content-wrapper">
                         <Link href={`/category/${item.blog_category}`}><span className="btn">{item.category_description}</span></Link>
                         <div className="btlc-content">
@@ -229,7 +229,7 @@ function Home() {
                       </div>
                     </div>)}
                     {filterByDay('left_category_two', 1).map((item: any, key: any) => <div key={key} className="btl-simple-card" data-aos="fade-up">
-                      {Config.randerImage(item, 190)}
+                      {(Config as any).randerImage(item, 190)}
                       <div className="btlc-content-wrapper">
                         <Link href={`/category/${item.blog_category}`}><span className="btn">{item.category_description}</span></Link>
                         <div className="btlc-content">
@@ -245,7 +245,7 @@ function Home() {
 
                   {filterByDay('center_category', 1).map((item: any, key: any) => <div key={key} className="btl-simple-card" data-aos="fade-up"
                     data-aos-delay="50">
-                    {Config.randerImage(item, 200, 500)}
+                    {(Config as any).randerImage(item, 200, 500)}
                     <div className="btlc-content-wrapper">
                       <Link href={`/category/${item.blog_category}`}><span className="btn-card btn-red">{item.category_description}</span></Link>
                       <div className="btlc-content">
@@ -283,7 +283,7 @@ function Home() {
                 {filterByDay('right_category_one', 1).map((item: any, key: any) => <div key={key} className="news-vcard-single aos-init aos-animate" data-aos="fade-up">
                   <Link href={`/category/${item.blog_category}`}><span className="btn-card btn-red">{item.category_description}</span></Link>
                   <div className="news-vcard-img">
-                    {Config.randerImage(item, 290)}
+                    {(Config as any).randerImage(item, 290)}
                   </div>
                   <div className="news-vcard-content">
                     <div className="news-vcard-title">
@@ -297,7 +297,7 @@ function Home() {
                 {filterByDay('right_category_two', 1).map((item: any, key: any) => <div key={key} className="news-vcard-single aos-init aos-animate" data-aos="fade-up">
                   <Link href={`/category/${item.blog_category}`}><span className="btn-card btn-red">{item.category_description}</span></Link>
                   <div className="news-vcard-img">
-                    {Config.randerImage(item, 290)}
+                    {(Config as any).randerImage(item, 290)}
                   </div>
                   <div className="news-vcard-content">
                     <div className="news-vcard-title">
@@ -349,7 +349,7 @@ function Home() {
 
                   {filterByWeek('t20-world-cup', 4).map((item: any, key: any) => <div key={key} className="news-vcard-single">
                     <div className="news-vcard-img">
-                      {Config.randerImage(item, 220)}
+                      {(Config as any).randerImage(item, 220)}
                     </div>
                     <div className="news-vcard-content">
                       <div className="news-vcard-title">
@@ -368,7 +368,7 @@ function Home() {
 
                   {filterByWeek('domestic', 4).map((item: any, key: any) => <div key={key} className="news-vcard-single">
                     <div className="news-vcard-img">
-                      {Config.randerImage(item, 220)}
+                      {(Config as any).randerImage(item, 220)}
                     </div>
                     <div className="news-vcard-content">
                       <div className="news-vcard-title">
@@ -385,7 +385,7 @@ function Home() {
 
                   {filterByWeek('international', 4).map((item: any, key: any) => <div key={key} className="news-vcard-single">
                     <div className="news-vcard-img">
-                      {Config.randerImage(item, 220)}
+                      {(Config as any).randerImage(item, 220)}
                     </div>
                     <div className="news-vcard-content">
                       <div className="news-vcard-title">
@@ -402,7 +402,7 @@ function Home() {
 
                   {filterByWeek("editors-pick", 4).map((item: any, key: any) => <div key={key} className="news-vcard-single">
                     <div className="news-vcard-img">
-                      {Config.randerImage(item, 220)}
+                      {(Config as any).randerImage(item, 220)}
                     </div>
                     <div className="news-vcard-content">
                       <div className="news-vcard-title">
@@ -419,7 +419,7 @@ function Home() {
 
                   {filterByWeek('match-prediction', 4).map((item: any, key: any) => <div key={key} className="news-vcard-single">
                     <div className="news-vcard-img">
-                      {Config.randerImage(item, 220)}
+                      {(Config as any).randerImage(item, 220)}
                     </div>
                     <div className="news-vcard-content">
                       <div className="news-vcard-title">
@@ -440,7 +440,7 @@ function Home() {
             {filterByWeek('Video', 12).map((item: any, key: any) => <div key={key} className="fdc-single-item">
               <div className="fdc-img">
                 <Link href={`/news/${item.route}`}>
-                  {Config.randerImage(item, 220)}
+                  {(Config as any).randerImage(item, 220)}
                 </Link>
               </div>
               <div className="fdc-content">
@@ -459,7 +459,7 @@ function Home() {
                 <div className="container">
                     <div className="row">
                         <div className="pro-wrapper">
-                            <img src="https://tpc.googlesyndication.com/simgad/14556471411178073418?" width="900" height="120" alt="Advertiser" border="0" />
+                            <Image src="https://tpc.googlesyndication.com/simgad/14556471411178073418?" width="900" height="120" alt="Advertiser" border="0" />
                         </div>
                     </div>
                 </div>

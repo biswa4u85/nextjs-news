@@ -1,5 +1,6 @@
 import React from "react";
 import Config from "../../common/Config";
+import Image from 'next/image'
 import InstagramEmbed from 'react-instagram-embed';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import { useSelector } from 'react-redux'
@@ -35,15 +36,10 @@ function SideBar(props: any) {
             <div style={{ marginTop: 30, height: 400, overflowX: 'scroll' }}><TwitterTimelineEmbed
                 sourceType="profile"
                 screenName={Config.twitter}
-            // options={{ height: 400 }}
             /></div>
-            {/* <div className="video-card">
-            <img src="https://tpc.googlesyndication.com/simgad/14556471411178073418?" width="250" height="250" alt="Advertiser" border="0" />
-        </div> */}
             <InstagramEmbed
                 url='https://instagr.am/p/Ytlfl/'
                 clientAccessToken='355600636724975|41858f9abccc022adde76de776ffc8f3'
-                // clientAccessToken='IGQVJWclRmcmpGcHpXNl81TnpVNzJVZAU83VWhLRVhWcEhVNkNSTGU1VXN2cm5JNFhmLVoxNmpWRUNlV2g2NVdYWGZAtbDNXRlg1NGpZALWE4VWVqdHNIak9aeWJyNWV3OWRNcWhveWtaN3NLTHRuQ2M1awZDZD'
                 maxWidth={320}
                 hideCaption={false}
                 containerTagName='div'

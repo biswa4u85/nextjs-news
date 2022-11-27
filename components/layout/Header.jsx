@@ -64,7 +64,7 @@ function Headers() {
                     <div className="main-header-wrapper">
                         <div className="header-logo">
                             <Link href="/">
-                                <img src={`${Config.frappe_url}/${homeSettings.site_logo}`} alt="image" />
+                                <img width="230" height="70" src={`${Config.frappe_url}/${homeSettings.site_logo}`} alt="image" />
                             </Link>
                         </div>
 
